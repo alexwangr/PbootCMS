@@ -24797,7 +24797,7 @@ UE.plugin.register('insertfile', function (){
                         icon = iconDir + getFileIcon(item.url);
                         title = item.title || item.url.substr(item.url.lastIndexOf('/') + 1);
                         if(title.indexOf("pdf")>0){
-                            html +='<iframe style="width: 100%;height: 600px;border: 0px;overflow: hidden" width="100%" height="500px"  src="'+item.url+'"></iframe>'
+                            html +='<iframe style="width: 100%;height: 1000px;border: 0px;overflow: hidden" width="100%" height="1000px"  src="'+item.url+'"></iframe>'
                         } else {
                             html += '<p style="line-height: 16px;">' +
                                 '<img style="vertical-align: middle; margin-right: 2px;" src="'+ icon + '" _src="' + icon + '" />' +
